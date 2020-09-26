@@ -1,0 +1,36 @@
+body {
+  font-family: Arial sans-serif;
+  background-image: url('./../img/ocean-beach-bokeh-horizontal-abstract-background_70155-233.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% 104%;
+  min-height: 550px;
+
+  .wrap {
+    margin-top: 200px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .btn {
+    width: 200px;
+    height: 60px;
+    background-color: yellowgreen;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+    border: none;
+    transition: color .3s linear, border .3s linear;
+    outline: none;
+
+    &:hover {
+      color: green;
+      border: 2px solid green;
+    }
+  }
+  .list {
+    font-size: 18px;
+  }
+}
